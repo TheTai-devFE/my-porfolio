@@ -5,17 +5,6 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 
 // Placeholder pages - sẽ viết lại sau
-function Blog() {
-  return (
-    <div className="min-h-screen pt-32 px-6 text-center">
-      <div className="max-w-6xl mx-auto">
-        <h1 className="text-5xl font-semibold tracking-tight text-gray-900 mb-4">Blog</h1>
-        <p className="text-gray-400">Coming soon...</p>
-      </div>
-    </div>
-  );
-}
-
 function App() {
   const location = useLocation();
 
@@ -33,7 +22,6 @@ function App() {
           >
             <Routes location={location} key={location.pathname}>
               <Route path="/" element={<Home />} />
-              <Route path="/blog" element={<Blog />} />
             </Routes>
           </motion.div>
         </AnimatePresence>

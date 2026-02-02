@@ -23,7 +23,7 @@ function Hero() {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     return (
-        <section className="min-h-screen flex flex-col relative overflow-hidden">
+        <section id='hero' className="min-h-screen flex flex-col relative overflow-hidden">
             <WelcomeModal isOpen={isModalOpen} setIsOpen={setIsModalOpen} />
 
             {/* Main Hero Content */}
