@@ -153,7 +153,7 @@ function Skills() {
                                     <h4 className="font-semibold text-gray-900">
                                         {item.category}
                                     </h4>
-                                    <p className="font-mono text-sm text-gray-600 leading-relaxed">
+                                    <p className="text-sm text-gray-600 leading-relaxed font-medium">
                                         {item.skills}
                                     </p>
                                 </div>

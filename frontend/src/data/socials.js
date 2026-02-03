@@ -12,7 +12,7 @@ export const socialLinks = [
         description: 'Best way to reach me',
     },
     {
-        name: 'SĐT',
+        name: 'Phone/Zalo: ',
         handle: '0865 370 761',
         href: 'tel:0865370761',
         icon: 'Phone',
